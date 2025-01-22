@@ -2,10 +2,11 @@
 
 int main()
 {
-    float number;
+    char number[100];
     printf("");
-    scanf("%lf",&number);
-    printf("You entered: %lf",number);
+    fgets(input,sizeof(input),stdin);
+    // scanf("%lf",&number);
+    printf("You entered: %s",number);
     return 0;
     
 }
