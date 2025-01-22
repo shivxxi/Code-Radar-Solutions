@@ -2,11 +2,11 @@
 
 int main()
 {
-    char input[100];
+    double number;
     printf("");
-    fgets(input,sizeof(input),stdin);
-    // scanf("%lf",&number);
-    printf("You entered: %s",input);
+    //fgets(input,sizeof(input),stdin);
+    scanf("%lf",&number);
+    printf("You entered: %lf",number);
     return 0;
     
 }
