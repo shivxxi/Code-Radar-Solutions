@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int number;
+    int number,bitStatus;
     int mask;
     scanf("%d %d",&number,&mask);
     bitStatus=(number>>mask)&1;
