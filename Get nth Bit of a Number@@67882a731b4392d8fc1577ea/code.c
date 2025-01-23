@@ -5,9 +5,9 @@ int main(){
     scanf("%d %d",&number,&mask);
     bitStatus=(number>>mask)&1;
     if(bitStatus==1){
-        printf("True");
+        printf("1");
     } else{
-        printf("False");
+        printf("0");
     }
     return 0;
 }
