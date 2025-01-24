@@ -2,7 +2,7 @@
 int main(){
     int num,div;
     scanf("%d %d",&num,&div);
-    if("num % div==0"){
+    if("div % num==0"){
         printf("Yes");
     }else{
         printf("No");
