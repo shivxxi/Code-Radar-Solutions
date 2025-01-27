@@ -2,8 +2,9 @@
 int main(){
     int num,isPrime=1;
     scanf("%d",&num);
-    if(n>=1){
+    if(n<=1){
         isPrime=0;
+    }
         else{
             for(int i=2;i*i<=n;i++){
                 if(n%i=0){
@@ -11,7 +12,7 @@ int main(){
                     break;
                 }
             }
-         }}
+         }
     if(isPrime){
         printf("Prime");
     }     else{
