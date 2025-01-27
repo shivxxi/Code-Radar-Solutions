@@ -1,6 +1,6 @@
 #include <stdio.h>
 int main(){
-    int num,isPrime,i;
+    int n,isPrime,i;
     isPrime=1;
     scanf("%d",&num);
     if(n<=1){
