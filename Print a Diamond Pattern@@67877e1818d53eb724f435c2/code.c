@@ -9,6 +9,7 @@ int main(){
         for(int j=i;j<=i*3;j++){
             printf("*");
         }
+        printf("\n");
     }
 
 }
