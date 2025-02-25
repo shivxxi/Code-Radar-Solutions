@@ -20,8 +20,10 @@ int main(){
         break;
         case'/':
         result=a/b;
-        printf("%f",result);
+        printf("%d",result);
         break;
+        default:
+        printf("Error");
     }
     return 0;
 }
