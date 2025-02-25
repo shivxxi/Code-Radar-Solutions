@@ -20,7 +20,7 @@ int main(){
         break;
         case'/':
         result=a/b;
-        printf("%d",result);
+        printf("%f",result);
         break;
     }
     return 0;
