@@ -19,6 +19,10 @@ int main(){
         printf("%d",result);
         break;
         case'/':
+        if(b==0){
+            printf("error");
+            return 1;
+        }
         result= (float)a/b;
         printf("%d",result);
         break;
