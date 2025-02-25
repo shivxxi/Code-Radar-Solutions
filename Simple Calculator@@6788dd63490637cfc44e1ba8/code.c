@@ -8,20 +8,21 @@ int main(){
     switch(op){
         case'+':
         result=a+b;
-        printf("%d",&result);
+        // printf("%d",&result);
         break;
         case'-':
         result=a-b;
-        printf("%d",&result);
+        // printf("%d",&result);
         break;
         case'*':
         result=a*b;
-        printf("%d",&result);
+        // printf("%d",&result);
         break;
         case'/':
         result=a/b;
-        printf("%d",&result);
+        // printf("%d",&result);
         break;
     }
+    printf("%d",&result);
     return 0;
 }
