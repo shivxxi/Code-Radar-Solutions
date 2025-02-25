@@ -4,25 +4,24 @@ int main(){
     char op;
     int result=0;
     scanf("%d %d",&a,&b);
-    scanf("%c",&op);
+    scanf(" %c",&op);
     switch(op){
         case'+':
         result=a+b;
-        // printf("%d",&result);
+        printf("%d",result);
         break;
         case'-':
         result=a-b;
-        // printf("%d",&result);
+        printf("%d",result);
         break;
         case'*':
         result=a*b;
-        // printf("%d",&result);
+        printf("%d",result);
         break;
         case'/':
         result=a/b;
-        // printf("%d",&result);
+        printf("%d",result);
         break;
     }
-    printf("%d",&result);
     return 0;
 }
