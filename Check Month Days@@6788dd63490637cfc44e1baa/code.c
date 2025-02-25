@@ -2,7 +2,7 @@
 #include<stdio.h>
 int main(){
     int num;
-    scanf("%d",&n);
+    scanf("%d",&num);
     switch(num){
         case 1:
         printf("31");
