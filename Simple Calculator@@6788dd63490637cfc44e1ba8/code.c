@@ -19,7 +19,7 @@ int main(){
         printf("%d",result);
         break;
         case'/':
-        result=float(a/b);
+        float result=(a/b);
         printf("%d",result);
         break;
         default:
